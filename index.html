@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Slots Spin - A thrilling online gaming experience.">
+    <title>Slots Spin - Download Page</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #141e30, #243b55);
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #243b55;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1em;
+            opacity: 0.8;
+        }
+        .online-players {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #00ff99;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #00c6ff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff5733;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 10%;
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .download-button {
+            display: inline-block;
+            background: #00c6ff;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            border-radius: 5px;
+            animation: pulse 2s infinite;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .download-button:hover {
+            background: #ff5733;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+        .game-info {
+            padding: 50px 10%;
+            background: #1e2a38;
+        }
+        .game-info h3 {
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .game-section {
+            margin-bottom: 20px;
+            background: #243b55;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        .game-section h4 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #141e30;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        footer p {
+            margin-bottom: 5px;
+        }
+        footer .disclaimer {
+            font-size: 0.85em;
+            color: #ff6666;
+        }
+    </style>
+    <script>
+        function updatePlayers() {
+            // Simulate real-time online players
+            const players = Math.floor(5000 + Math.random() * 5000);
+            document.getElementById("online-players").textContent = players + " players online";
+        }
+        setInterval(updatePlayers, 2000);
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Slots Spin</h1>
+        <p>The Ultimate Gaming Experience</p>
+        <div class="online-players" id="online-players">Loading players...</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Welcome to Slots Spin</h2>
+        <p>Join thousands of players in the most thrilling slot game online. Experience smooth gameplay and big wins!</p>
+        <a href="https://bingo101f.com/?code=6YF72KF817T&t=1732799319" class="download-button" id="download">Download Now</a>
+    </section>
+    <section class="game-info" id="about">
+        <h3>About Slots Spin</h3>
+        <div class="game-section">
+            <h4>1. Exciting Gameplay</h4>
+            <p>Immerse yourself in stunning graphics and smooth animations designed to keep you engaged for hours.</p>
+        </div>
+        <div class="game-section">
+            <h4>2. Big Rewards</h4>
+            <p>Spin the reels and stand a chance to win big rewards and exclusive prizes.</p>
+        </div>
+        <div class="game-section">
+            <h4>3. Online Tournaments</h4>
+            <p>Compete with players from around the world and climb the leaderboard for glory.</p>
+        </div>
+        <div class="game-section">
+            <h4>4. Easy to Play</h4>
+            <p>User-friendly controls make Slots Spin perfect for beginners and pros alike.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Slots Spin. All rights reserved.</p>
+        <p class="disclaimer">
+            Disclaimer: This game is restricted to players aged 18+.<br>
+            Not available in Indian states of Andhra Pradesh, Telangana, Assam, Odisha, and Nagaland.
+        </p>
+    </footer>
+</body>
+</html>
